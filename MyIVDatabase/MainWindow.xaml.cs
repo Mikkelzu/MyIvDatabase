@@ -27,7 +27,7 @@ namespace MyIVDatabase
         {
             InitializeComponent();
 
-            new Task(ShowDatabaseInGrid).Start(); ;
+            new Task(ShowDatabaseInGrid).Start();
         }
 
         public async void ShowDatabaseInGrid()
